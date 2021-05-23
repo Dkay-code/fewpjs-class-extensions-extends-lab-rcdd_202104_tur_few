@@ -3,7 +3,7 @@ class Polygon {
     this.side = side;
   }
 
-get countSides(side) {
-  return this.side.reduce((acc, side) => acc + side);
+get countSides() {
+  return this.side.reduce((acc, curr) => acc + curr);
 }
 }
