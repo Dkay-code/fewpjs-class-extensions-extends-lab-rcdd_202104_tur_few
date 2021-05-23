@@ -20,5 +20,5 @@ class Triangle extends Polygon {
        return false;
      }
    }
-  }
 }
+
