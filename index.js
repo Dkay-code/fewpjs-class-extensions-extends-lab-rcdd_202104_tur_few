@@ -4,10 +4,10 @@ class Polygon {
   }
 
 get countSides() {
-  return this.side.length;
+  return this.arr.length;
 }
 
 get perimeter(){
-  return this.side.reduce((acc, curr) => acc + curr, 0);
+  return this.arr.reduce((acc, curr) => acc + curr, 0);
 }
 }
