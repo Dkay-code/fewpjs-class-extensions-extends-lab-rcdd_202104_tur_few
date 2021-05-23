@@ -35,4 +35,3 @@ class Square extends Polygon {
     return this.arr * this.arr;
   }
   }
-}
