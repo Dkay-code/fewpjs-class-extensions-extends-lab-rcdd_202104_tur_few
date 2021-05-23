@@ -9,7 +9,6 @@ get countSides() {
 }
 
 get perimeter(){
-  return this.side.reduce((acc, curr) => acc + curr, 0);    
+  return this.side.reduce((acc, curr) => acc + curr, 0);
 }
 }
-
