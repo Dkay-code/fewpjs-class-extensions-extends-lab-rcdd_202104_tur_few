@@ -29,5 +29,9 @@ class Square extends Polygon {
       return false;
       }
     }
+
+  get area(){
+    return this.arr * this.arr;
+  }
   }
 }
