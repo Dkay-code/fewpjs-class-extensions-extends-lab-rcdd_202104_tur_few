@@ -14,7 +14,7 @@ get perimeter(){
 
 class Triangle extends Polygon {
   get isValid(){
-    if(this.arr[0] + this.arr[1] > this.arr[2] && this.arr[1] + this.arr[2] > this.arr[0] && this.sides[0] + this.sides[2] > this.sides[1]) {
+    if(this.arr[0] + this.arr[1] > this.arr[2] && this.arr[1] + this.arr[2] > this.arr[0] && this.arr[0] + this.arr[2] > this.arr[1]) {
         return true;
       } else {
        return false;
